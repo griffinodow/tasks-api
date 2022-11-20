@@ -71,7 +71,7 @@ jobs:
       - name: Untar files
         run: tar -xzf node_modules.tar.gz
 
-      - name: Deploy website
+      - name: Deploy API
         uses: tj-actions/aws-cdk@v3
         with:
           cdk_subcommand: "deploy"
