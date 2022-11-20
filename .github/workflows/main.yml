@@ -1,4 +1,4 @@
-name: Deploy Tasks App
+name: Deploy Tasks API
 
 on:
   push:
